@@ -1,0 +1,4 @@
+﻿  timeofday_main.cpp
+C:\Users\busin\source\repos\cs311-2022-03\timeofday_main.cpp(8,10): fatal error C1083: Cannot open include file: 'timeofday.h': No such file or directory
+  timeofday.cpp
+  Generating Code...
