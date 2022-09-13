@@ -45,7 +45,7 @@ public:
 	}
 
 	// Will print out string of typed variables
-	std::string toString() {
+	std::string toString() const {
 		std::cout << getName() << " (" << getQuantity() << ") ";
 	}
 
