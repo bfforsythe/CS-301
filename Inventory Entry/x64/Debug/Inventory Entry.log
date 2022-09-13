@@ -1,2 +1,34 @@
 ﻿  inventoryentry.cpp
-  Inventory Entry.vcxproj -> C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\x64\Debug\Inventory Entry.exe
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(62,30): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(82,30): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(49,3): error C2065: 'cout': undeclared identifier
+  inventoryentry_test.cpp
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(62,30): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(82,30): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(49,3): error C2065: 'cout': undeclared identifier
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(92,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(109): message : see reference to class template instantiation 'TypeCheck<T>' being compiled
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(104,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(124,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(131,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(139,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(145,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(151,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(157,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(163,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(169,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(175,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(181,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(187,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(193,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(200,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(212,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(214,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(216,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(218,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(218,51): error C2662: 'std::string InventoryEntry::toString(void)': cannot convert 'this' pointer from 'const InventoryEntry' to 'InventoryEntry &'
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(218,38): message : Conversion loses qualifiers
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry.h(48,14): message : see declaration of 'InventoryEntry::toString'
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(232,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\Inventory Entry\inventoryentry_test.cpp(234,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  Generating Code...

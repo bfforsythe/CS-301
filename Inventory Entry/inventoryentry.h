@@ -7,22 +7,23 @@
 
 
 class InventoryEntry {
-private:
 	std::string productName;
 	int quantity;
 
 public:
 
-	InventoryEntry() {
-		productName = "NOT SPECIFICED";
+
+	InventoryEntry() { // Default Constructor
+		productName = "NOT SPECIFIED";
 		quantity = 0;
 	}
 
-	InventoryEntry(std::string name, int amnt) {
+	InventoryEntry(std::string name, int amnt) { // Parameterized Constructor
 		productName = name;
 		quantity = amnt;
 	}
 
+	// Getters
 	std::string getName() const {
 		return(productName);
 	}
@@ -30,9 +31,9 @@ public:
 		return(quantity);
 	}
 
-
-	void setName(std::string n) {productName = n;}
-	void setQuantity(int i) {quantity = i;}
+	// Setters
+	void setName(std::string n) { productName = n; }
+	void setQuantity(int i) { quantity = i; }
 
 	bool empty() const {
 		if (quantity == 0) {
@@ -43,12 +44,54 @@ public:
 		}
 	}
 
-	std::string toString() const {
-		cout << productName << " (" << quantity << ") " << endl;
+	// Will print out string of typed variables
+	std::string toString() {
+		std::cout << getName() << " (" << getQuantity() << ") ";
 	}
 
 
+
+
+	InventoryEntry& operator++() // Pre-Inc
+	{
+		++quantity;
+		return *this;
+	}
+
+
+	InventoryEntry operator++([[maybe_unused]] int dummy) // Post-Inc
+	{
+
+		auto save = *this;
+		++(*this);
+		return save;
+	}
+
+
+	InventoryEntry& operator--() // Pre-Dec
+	{
+		if (quantity > 1) {
+			quantity--;
+			return *this;
+		}
+		else {
+			return *this;
+		}
+	}
+
+	InventoryEntry operator--([[maybe_unused]] int dummy) // Post-Dec
+	{
+		auto save = *this;
+		--(*this);
+		return save;
+	}
+
+	
+
 };
+
+// Overloads
+
 
 bool operator==(const InventoryEntry& lhs, const InventoryEntry & rhs) {
 	if (lhs == rhs){
@@ -70,7 +113,7 @@ bool operator!=(const InventoryEntry& lhs, const InventoryEntry& rhs) {
 }
 
 std::ostream& operator <<(std::ostream& COUT, const InventoryEntry& inventory) {
-	COUT << inventory.toString();
+	return COUT << inventory.getName() << " (" << inventory.getQuantity() << ")";
 }
 
 

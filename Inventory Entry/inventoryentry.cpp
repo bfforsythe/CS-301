@@ -8,11 +8,17 @@ using std::cout;
 using std::endl;
 
 
-int main() {
+int main(int argc,
+	char* argv[]) {
 
-	InventoryEntry stock;
+	// Prints Greens (100); 
+
+	InventoryEntry input;
+
+	input.setName("Greens");
+	input.setQuantity(100);
 
 
-
+	input.toString();
 
 }
