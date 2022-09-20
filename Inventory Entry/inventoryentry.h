@@ -6,6 +6,7 @@
 #include <iostream>
 
 
+
 class InventoryEntry {
 	std::string productName;
 	int quantity;
@@ -46,7 +47,10 @@ public:
 
 	// Will print out string of typed variables
 	std::string toString() const {
-		std::cout << getName() << " (" << getQuantity() << ") ";
+		std::string quant;
+		quant = std::to_string(quantity);
+		const std::string str = getName() + " (" + quant + ")";
+		return(str);
 	}
 
 
@@ -92,29 +96,11 @@ public:
 
 // Overloads
 
+bool operator==(const InventoryEntry& lhs, const InventoryEntry& rhs);
 
-bool operator==(const InventoryEntry& lhs, const InventoryEntry & rhs) {
-	if (lhs == rhs){
-		return true;
-	}
-	else {
-		return false;
-	}
-}
+bool operator!=(const InventoryEntry& lhs, const InventoryEntry& rhs);
 
-
-bool operator!=(const InventoryEntry& lhs, const InventoryEntry& rhs) {
-	if (lhs != rhs) {
-		return true;
-	}
-	else {
-		return false;
-	}
-}
-
-std::ostream& operator <<(std::ostream& COUT, const InventoryEntry& inventory) {
-	return COUT << inventory.getName() << " (" << inventory.getQuantity() << ")";
-}
+std::ostream& operator <<(std::ostream& COUT, const InventoryEntry& inventory);
 
 
 

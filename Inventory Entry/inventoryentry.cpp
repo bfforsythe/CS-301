@@ -7,18 +7,27 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+// Overloads
 
-int main(int argc,
-	char* argv[]) {
+bool operator==(const InventoryEntry& lhs, const InventoryEntry& rhs) {
+	if (lhs.getQuantity() == rhs.getQuantity() && lhs.getName() == rhs.getName()) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
 
-	// Prints Greens (100); 
 
-	InventoryEntry input;
+bool operator!=(const InventoryEntry& lhs, const InventoryEntry& rhs) {
+	if (lhs.getName() != rhs.getName() || lhs.getQuantity() != rhs.getQuantity()) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
 
-	input.setName("Greens");
-	input.setQuantity(100);
-
-
-	input.toString();
-
+std::ostream& operator <<(std::ostream& COUT, const InventoryEntry& inventory) {
+	return COUT << inventory.getName() << " (" << inventory.getQuantity() << ")";
 }
