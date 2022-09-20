@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+using std::endl;
+using std::cout;
 
 
 int main() {
