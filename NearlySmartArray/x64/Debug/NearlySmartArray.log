@@ -1,21 +1,13 @@
 ﻿  nsarray.cpp
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(49,10): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(47): message : while compiling class template member function 'NSArray<double>::NSArray(T,T)'
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to function template instantiation 'NSArray<double>::NSArray(T,T)' being compiled
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to class template instantiation 'NSArray<double>' being compiled
-nsarray.obj : error LNK2019: unresolved external symbol "bool __cdecl operator==(class NSArray<int> const &,class NSArray<int> const &)" (??8@YA_NAEBV?$NSArray@H@@0@Z) referenced in function main
-nsarray.obj : error LNK2019: unresolved external symbol "public: __cdecl NSArray<int>::NSArray<int>(class NSArray<int> const &)" (??0?$NSArray@H@@QEAA@AEBV0@@Z) referenced in function main
-nsarray.obj : error LNK2019: unresolved external symbol "public: class NSArray<double> & __cdecl NSArray<double>::operator=(class NSArray<double> const &)" (??4?$NSArray@N@@QEAAAEAV0@AEBV0@@Z) referenced in function main
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\x64\Debug\NearlySmartArray.exe : fatal error LNK1120: 3 unresolved externals
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(57,48): error C2760: syntax error: ';' was unexpected here; expected '{'
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(139): message : see reference to class template instantiation 'NSArray<T>' being compiled
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(58,3): error C2059: syntax error: '{'
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(58,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(56,1): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  nsarray_test.cpp
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(57,48): error C2760: syntax error: ';' was unexpected here; expected '{'
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(139): message : see reference to class template instantiation 'NSArray<T>' being compiled
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(58,3): error C2059: syntax error: '{'
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(58,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray.h(56,1): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  Generating Code...
