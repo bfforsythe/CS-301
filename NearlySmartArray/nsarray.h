@@ -54,14 +54,13 @@ public:
 	
 
 	 NSArray(size_type size, const value_type& value) // 2 param ctor
-		 :_createArray(new value_type[size]), _size();
+		 :_createArray(new value_type[size]), _size()
 	 {}
 
 
-	~NSArray(){ // Dctor
-		delete[] _createArray;
-	}; 
-
+	 ~NSArray() { // Dctor
+		 delete[] _createArray;
+	 }
 
 
 	// ****************** "General" (? I don't know if that's the right term) Functions ******************
