@@ -1,10 +1,12 @@
 #include "nsarray.h"
-#include <iostream>>
+#include <iostream>
 #include <string>
 #include <vector>
 
 using std::endl;
 using std::cout;
+
+
 
 
 int main() {
@@ -39,3 +41,4 @@ int main() {
 
 
 }
+

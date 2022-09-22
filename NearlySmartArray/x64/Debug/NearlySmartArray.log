@@ -1,23 +1,21 @@
 ﻿  nsarray.cpp
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): error C2672: 'end': no matching overloaded function found
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1942,27): message : could be '_Ty *std::end(_Ty (&)[_Size]) noexcept'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': could not deduce template argument for '_Ty (&)[_Size]' from 'NSArray<int>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1942): message : see declaration of 'std::end'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1932,30): message : or       'unknown-type std::end(const _Container &)'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): message : Failed to specialize function template 'unknown-type std::end(const _Container &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1932): message : see declaration of 'std::end'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(25,5): message : With the following template arguments:
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(25,5): message : '_Container=NSArray<int>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1927,30): message : or       'unknown-type std::end(_Container &)'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): message : Failed to specialize function template 'unknown-type std::end(_Container &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1927): message : see declaration of 'std::end'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(25,5): message : With the following template arguments:
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(25,5): message : '_Container=NSArray<int>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\initializer_list(60,35): message : or       'const _Elem *std::end(std::initializer_list<_Elem>) noexcept'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'NSArray<int>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : see declaration of 'std::end'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,19): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'NSArray<int>'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : see declaration of 'std::end'
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(25,5): error C3536: '<end>$L0': cannot be used before it is initialized
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(24,21): error C2100: illegal indirection
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(49,10): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=double
+          ]
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(47): message : while compiling class template member function 'NSArray<double>::NSArray(T,T)'
+          with
+          [
+              T=double
+          ]
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to function template instantiation 'NSArray<double>::NSArray(T,T)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to class template instantiation 'NSArray<double>' being compiled
+nsarray.obj : error LNK2019: unresolved external symbol "bool __cdecl operator==(class NSArray<int> const &,class NSArray<int> const &)" (??8@YA_NAEBV?$NSArray@H@@0@Z) referenced in function main
+nsarray.obj : error LNK2019: unresolved external symbol "public: __cdecl NSArray<int>::NSArray<int>(class NSArray<int> const &)" (??0?$NSArray@H@@QEAA@AEBV0@@Z) referenced in function main
+nsarray.obj : error LNK2019: unresolved external symbol "public: class NSArray<double> & __cdecl NSArray<double>::operator=(class NSArray<double> const &)" (??4?$NSArray@N@@QEAAAEAV0@AEBV0@@Z) referenced in function main
+C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\x64\Debug\NearlySmartArray.exe : fatal error LNK1120: 3 unresolved externals
