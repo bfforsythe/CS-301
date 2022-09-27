@@ -1,21 +1,66 @@
 ﻿  nsarray.cpp
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(49,10): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.h(47): message : while compiling class template member function 'NSArray<double>::NSArray(T,T)'
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to function template instantiation 'NSArray<double>::NSArray(T,T)' being compiled
-          with
-          [
-              T=double
-          ]
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\nsarray.cpp(37): message : see reference to class template instantiation 'NSArray<double>' being compiled
-nsarray.obj : error LNK2019: unresolved external symbol "bool __cdecl operator==(class NSArray<int> const &,class NSArray<int> const &)" (??8@YA_NAEBV?$NSArray@H@@0@Z) referenced in function main
-nsarray.obj : error LNK2019: unresolved external symbol "public: __cdecl NSArray<int>::NSArray<int>(class NSArray<int> const &)" (??0?$NSArray@H@@QEAA@AEBV0@@Z) referenced in function main
-nsarray.obj : error LNK2019: unresolved external symbol "public: class NSArray<double> & __cdecl NSArray<double>::operator=(class NSArray<double> const &)" (??4?$NSArray@N@@QEAAAEAV0@AEBV0@@Z) referenced in function main
-C:\Users\Brandon\source\repos\bfforsythe\CS-311\NearlySmartArray\x64\Debug\NearlySmartArray.exe : fatal error LNK1120: 3 unresolved externals
+  nsarray_test.cpp
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(95,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(112): message : see reference to class template instantiation 'TypeCheck<T>' being compiled
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(107,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(197,26): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(319,18): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(320,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(352,19): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(353,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(365,19): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(366,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(386,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(390,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(399,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(403,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(420,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(428,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(435,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(437,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(440,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(442,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(449,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(451,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(454,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(456,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(462,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(464,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(467,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(468,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(475,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(477,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(480,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(482,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(488,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(490,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(493,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(495,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(501,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(503,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(506,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(508,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(514,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(516,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(519,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(521,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(527,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(533,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(539,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(545,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(551,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(557,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(574,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(575,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(576,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(577,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(578,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(579,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(593,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(603,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(613,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(623,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(633,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\NearlySmartArray\nsarray_test.cpp(643,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  Generating Code...
+  NearlySmartArray.vcxproj -> C:\Users\busin\Source\Repos\bfforsythe\CS-301\NearlySmartArray\x64\Debug\NearlySmartArray.exe
