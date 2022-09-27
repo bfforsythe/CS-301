@@ -9,7 +9,7 @@ using std::cout;
 
 
 
-/*int main() {
+int main() {
 
     NSArray<int> ia(8);           // Array of 8 ints
     NSArray<int> iax;             // Another array of 8 ints
@@ -40,5 +40,5 @@ using std::cout;
   //      cout << "blah blah" << endl;
 
 
-} */
+}
 
