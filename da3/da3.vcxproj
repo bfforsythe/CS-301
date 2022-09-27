@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="da3.cpp" />
+    <ClCompile Include="da3_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="da3.h" />
+    <ClInclude Include="doctest.h" />
     <ClInclude Include="llnode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
