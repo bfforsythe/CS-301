@@ -9,12 +9,12 @@
 
 int hbsCount(const int& squareX, 
              const int& squareY,
-             const int& hole_x, 
-             const int& hole_y,
+             const int& holyXbatman, 
+             const int& holyY,
              const int& startX, 
              const int& startY,
-             const int& finish_x, 
-             const int& finish_y)
+             const int& finishX, 
+             const int& finishY)
 {
     // Set all values to goose egg (0)
 
@@ -23,7 +23,7 @@ Board board(squareX, vector<int>(squareY, 0));
     int remaining = squareX * squareY;
 
     // set hole variable
-    board[hole_x][hole_y] = 1;
+    board[holyXbatman][holyY] = 1;
     --remaining;
 
     // set start variable
@@ -33,22 +33,19 @@ Board board(squareX, vector<int>(squareY, 0));
     int curr_x = startX;
     int curr_y = startY;
 
-    if (startX == hole_x || startY == hole_y) {
-        return(0);
-    } 
 
-    return hbsCount_recurse(board, squareX, squareY, finish_x, finish_y, curr_x, curr_y, remaining);
+    return hbsCount_recurse(board, squareX, squareY, finishX, finishY, curr_x, curr_y, remaining);
 }
 
 
 int hbsCount_recurse(Board& board,
     const int& squareX, const int& squareY,
-    const int& finish_x, const int& finish_y,
+    const int& finishX, const int& finishY,
     int& curr_x, int& curr_y,
     int& squaresLeft)
 {
     // BASE CASE
-    if (squaresLeft == 0 && curr_x == finish_x && curr_y == finish_y)
+    if (squaresLeft == 0 && curr_x == finishX && curr_y == finishY)
     {
         return 1;
     }
@@ -83,7 +80,7 @@ int hbsCount_recurse(Board& board,
                 board[curr_x][curr_y] = 1;
                 --squaresLeft;
                 
-                total += hbsCount_recurse(board, squareX, squareY, finish_x, finish_y, curr_x, curr_y, squaresLeft);
+                total += hbsCount_recurse(board, squareX, squareY, finishX, finishY, curr_x, curr_y, squaresLeft);
 
                 board[curr_x][curr_y] = 0;
                 curr_x -= i;

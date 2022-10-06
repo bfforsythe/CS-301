@@ -21,12 +21,12 @@ using Board = vector<vector<int>>; // this initializes the board.
 
 int hbsCount(const int& squareX, 
 			 const int& squareY,
-			 const int& hole_x, 
-			 const int& hole_y,
+			 const int& holyXbatman, 
+			 const int& holyY,
 			 const int& startX, 
 			 const int& startY,
-			 const int& finish_x, 
-			 const int& finish_y);
+			 const int& finishX, 
+			 const int& finishY);
 
 // Precon:
 // Same as above
@@ -34,8 +34,8 @@ int hbsCount_recurse(
 			 Board& board,
 			 const int& squareX,
 			 const int& squareY,
-			 const int& finish_x, 
-			 const int& finish_y,
+			 const int& finishX, 
+			 const int& finishY,
 			 int& curr_x, 
 			 int& curr_y,
 			 int& squaresLeft);
