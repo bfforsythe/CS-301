@@ -1,9 +1,7 @@
-// da3.cpp  SKELETON
-// Glenn G. Chappell
-// 2022-09-22
-//
-// For CS 311 Fall 2022
-// Source for Assignment 3 functions
+// da3.cpp  (Finished)
+// Brandon Forsythe
+// 2022-09-27
+// This program is a finished skeleton by Dr. Glenn Chappell, my code has been written in the functions in order to satisfy da3_test.cpp
 
 #include "da3.h"       // For Assignment 3 prototypes & templates
 
@@ -14,13 +12,35 @@ using std::function;
 void didItThrow(const function<void()>& ff,
     bool& threw)
 {
-    // TODO: WRITE THIS!!!
+    try  {
+        ff();
+    }
+    catch (...) {
+        threw = true;
+        throw;
+    }
+
+    threw = false;
+    return;
 }
 
 
 int gcd(int a,
     int b)
 {
-    return 42;  // Dummy return
-    // TODO: WRITE THIS!!!
+   //BASE CASE
+
+    if (a == 0) {
+        return b;
+    }
+
+    // RECURSE CASE
+
+    else if (a > b) {
+        return gcd(b, a);
+    }
+    else {
+        return gcd(b % a , a);
+    }
+
 }

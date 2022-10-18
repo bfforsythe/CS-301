@@ -1,0 +1,16 @@
+﻿  da3.cpp
+  da3_test.cpp
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(99,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(116): message : see reference to class template instantiation 'TypeCheck<T>' being compiled
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(111,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(179,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(200,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(221,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(229,11): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(255,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(284,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(341,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(448,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\da3\da3_test.cpp(477,15): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  Generating Code...
+  da3.vcxproj -> C:\Users\busin\source\repos\bfforsythe\CS-301\da3\x64\Debug\da3.exe
