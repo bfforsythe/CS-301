@@ -6527,7 +6527,7 @@ namespace doctest {
 
         // parses an int/bool option from the command line
         bool parseIntOption(int argc, const char* const* argv, const char* pattern, optionType type,
-            int res) {
+            int& res) {
             String parsedValue;
             if (!parseOption(argc, argv, pattern, &parsedValue))
                 return false;

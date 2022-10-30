@@ -50,11 +50,8 @@ int hbsCount_recurse(Board& board,
         return 1;
     }
 
-
     // RECURSIVE CASE
     int total = 0; 
-
-
 
     // Check X square
     for (int i = -1; i < 2; ++i)
@@ -82,10 +79,10 @@ int hbsCount_recurse(Board& board,
 
                 board[curr_x][curr_y] = 1;
                 --squaresLeft;
-
+                
                 total += hbsCount_recurse(board, squareX, squareY, finishX, finishY, curr_x, curr_y, squaresLeft);
 
-                board[curr_x][curr_y] = 1;
+                board[curr_x][curr_y] = 0;
                 curr_x -= i;
                 curr_y -= j;
                 ++squaresLeft;
@@ -97,3 +94,4 @@ int hbsCount_recurse(Board& board,
 
 
 }
+
