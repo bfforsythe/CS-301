@@ -6,7 +6,7 @@
 
 
 // (Invariants given in class, most of the ideas here courtesy of Glenn Chappell, 2022).
-// Almost this entire template is based off of what was written for CS311, circa 2022.
+// Almost this entire template is based off of what was written for, and during CS311, circa 2022.
 
 #ifndef TESARRAY_H
 #define TESARRAY_H
