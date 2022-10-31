@@ -2,6 +2,7 @@
 // 10/30/22
 // TESArray.cpp
 // This is a templated class to satisfy requirements for HW5.
+// All tests pass.
 
 
 // (Invariants given in class, most of the ideas here courtesy of Glenn Chappell, 2022).
@@ -9,8 +10,8 @@
 
 #ifndef TESARRAY_H
 #define TESARRAY_H
-#include <cstddef>		// For std::size_t
-#include <algorithm>	// For std::max
+#include <cstddef>		// std::size_t
+#include <algorithm>	// std::max
 
 // ----------------- TES Array Class -----------------
 // Invariants:
