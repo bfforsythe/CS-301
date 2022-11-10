@@ -15,15 +15,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="esarray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="esarray_main.cpp">
+=======
+    <ClCompile Include="TESArray.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tesarray_test.cpp">
+>>>>>>> 216f5ec89356a225c4b5d00185daf2f30542e8d9
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="esarray.h">
+=======
+    <ClInclude Include="doctest.h">
+>>>>>>> 216f5ec89356a225c4b5d00185daf2f30542e8d9
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

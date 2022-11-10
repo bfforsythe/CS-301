@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  esarray.cpp
   esarray_main.cpp
 C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray_main.cpp(34,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
@@ -15,3 +16,7 @@ C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(82): error C4716
 C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(84): error C4716: 'ESArray::end': must return a value
 C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(91): error C4716: 'ESArray::insert': must return a value
 C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(93): error C4716: 'ESArray::erase': must return a value
+=======
+﻿  TESArray.h
+  ESArray.vcxproj -> C:\Users\Brandon\source\repos\bfforsythe\CS-311\ESArray\x64\Debug\ESArray.exe
+>>>>>>> 216f5ec89356a225c4b5d00185daf2f30542e8d9

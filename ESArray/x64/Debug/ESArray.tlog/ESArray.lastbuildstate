@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=10.0.19041.0:
 Debug|x64|C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.33.31629:TargetPlatformVersion=10.0.19041.0:
+Debug|x64|C:\Users\Brandon\source\repos\bfforsythe\CS-311\ESArray\|
+>>>>>>> 216f5ec89356a225c4b5d00185daf2f30542e8d9
