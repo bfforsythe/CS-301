@@ -1,0 +1,17 @@
+﻿  esarray.cpp
+  esarray_main.cpp
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray_main.cpp(34,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  Generating Code...
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray_main.cpp(73): error C4700: uninitialized local variable 'v' used
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(46): error C4716: 'ESArray::operator=': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(48): error C4716: 'ESArray::operator=': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(60): error C4716: 'ESArray::operator[]': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(62): error C4716: 'ESArray::operator[]': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(68): error C4716: 'ESArray::size': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(72): error C4716: 'ESArray::empty': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(76): error C4716: 'ESArray::begin': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(78): error C4716: 'ESArray::begin': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(82): error C4716: 'ESArray::end': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(84): error C4716: 'ESArray::end': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(91): error C4716: 'ESArray::insert': must return a value
+C:\Users\busin\source\repos\bfforsythe\CS-301\ESArray\esarray.h(93): error C4716: 'ESArray::erase': must return a value
