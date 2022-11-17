@@ -1,0 +1,9 @@
+﻿  tsort_test.cpp
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(104,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(121): message : see reference to class template instantiation 'TypeCheck<T>' being compiled
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(116,25): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(206,33): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(235,33): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(372,18): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\tsort_test.cpp(373,7): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  tsort.vcxproj -> C:\Users\busin\source\repos\bfforsythe\CS-301\tsort\x64\Debug\tsort.exe
