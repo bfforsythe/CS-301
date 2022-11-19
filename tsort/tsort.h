@@ -101,11 +101,11 @@ void insert(std::unique_ptr<binTree<Val>>& head, const Val& item)
 // treesort
 // Sort a given range using Treesort.
 // Pre:
-//     ???
+//     first and last must exist
 // Requirements on Types:
-//     ???
+//     Val must include a copy and < constructor
 // Exception safety guarantee:
-//     ???
+//     STRONG
 template<typename FDIter>
 void treesort(FDIter first, FDIter last)
 {
